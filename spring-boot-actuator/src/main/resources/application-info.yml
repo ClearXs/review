@@ -1,0 +1,21 @@
+management:
+  endpoint:
+    # info端点配置
+    info:
+      enabled: true
+  info:
+    # EnvironmentInfoContributor的配置项
+    env:
+      enabled: true
+  endpoints:
+    # Actuator HTTP 配置项，对应 WebEndpointProperties 配置类
+    web:
+      base-path: /actuator
+      exposure:
+        # 需要开放的端口，默认只是health info两个端点
+        include: '*'
+        # 在include基础上，排除的端点
+        # exclude:
+info:
+  app:
+    java: @java.version@

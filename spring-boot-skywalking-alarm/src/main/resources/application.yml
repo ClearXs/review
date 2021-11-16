@@ -1,0 +1,18 @@
+
+server:
+  port: 8081
+
+spring:
+  mail:
+    host: smtp.163.com
+    username: b6688c@126.com
+    password: CVEBVBFIQQGZCIKI
+    default-encoding: utf-8
+    port: 465
+    protocol: smtp
+    properties:
+      mail:
+        debug: false
+        smtp:
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory

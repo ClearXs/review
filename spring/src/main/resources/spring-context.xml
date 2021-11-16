@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+<!--    <context:component-scan base-package="com.jw.spring"/>-->
+
+    <context:property-placeholder file-encoding="UTF-8" location="classpath:prop/app.properties" />
+
+    <bean class="com.jw.spring.Demo">
+        <property name="name" value="${server.name}"/>
+    </bean>
+
+    <bean id="aspect" class="com.jw.spring.Aop"/>
+
+    <aop:config>
+        <aop:pointcut id="log" expression="execution(* com.jw.spring.*.*(..))"/>
+        <aop:aspect id="aspectLog" ref="aspect">
+            <aop:around method="log" pointcut-ref="log"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

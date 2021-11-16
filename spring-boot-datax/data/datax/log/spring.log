@@ -1,0 +1,931 @@
+2021-07-27 14:09:08.833  INFO 41724 --- [main] c.j.s.SpringBootDataxApplicationTests    : Starting SpringBootDataxApplicationTests on LAPTOP-UN0BMNLC with PID 41724 (started by jiangw in D:\java\personal\review\spring-boot-datax)
+2021-07-27 14:09:08.835  INFO 41724 --- [main] c.j.s.SpringBootDataxApplicationTests    : No active profile set, falling back to default profiles: default
+2021-07-27 14:09:10.405  INFO 41724 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-27 14:09:10.784  INFO 41724 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-07-27 14:09:13.302  INFO 41724 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-07-27 14:09:13.822  INFO 41724 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2021-07-27 14:09:13.910  INFO 41724 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-07-27 14:09:13.911  INFO 41724 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2021-07-27 14:09:13.915  INFO 41724 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2021-07-27 14:09:13.918  INFO 41724 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-07-27 14:09:13.919  INFO 41724 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-07-27 14:09:13.920  INFO 41724 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2021-07-27 14:09:13.920  INFO 41724 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@15c6027d
+2021-07-27 14:09:14.126  INFO 41724 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-07-27 14:09:14.127  INFO 41724 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-07-27 14:09:14.144  INFO 41724 --- [main] c.j.s.SpringBootDataxApplicationTests    : Started SpringBootDataxApplicationTests in 5.804 seconds (JVM running for 7.277)
+2021-07-27 14:09:43.510  INFO 35808 --- [main] c.j.s.SpringBootDataxApplicationTests    : Starting SpringBootDataxApplicationTests on LAPTOP-UN0BMNLC with PID 35808 (started by jiangw in D:\java\personal\review\spring-boot-datax)
+2021-07-27 14:09:43.512  INFO 35808 --- [main] c.j.s.SpringBootDataxApplicationTests    : No active profile set, falling back to default profiles: default
+2021-07-27 14:09:44.823  INFO 35808 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-27 14:09:45.180  INFO 35808 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-07-27 14:09:45.481  INFO 35808 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-07-27 14:09:45.616  INFO 35808 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2021-07-27 14:09:45.631  INFO 35808 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-07-27 14:09:45.632  INFO 35808 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2021-07-27 14:09:45.633  INFO 35808 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2021-07-27 14:09:45.634  INFO 35808 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-07-27 14:09:45.635  INFO 35808 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-07-27 14:09:45.635  INFO 35808 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2021-07-27 14:09:45.635  INFO 35808 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6acffb2d
+2021-07-27 14:09:45.741  INFO 35808 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-07-27 14:09:45.741  INFO 35808 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-07-27 14:09:45.754  INFO 35808 --- [main] c.j.s.SpringBootDataxApplicationTests    : Started SpringBootDataxApplicationTests in 2.73 seconds (JVM running for 4.661)
+2021-07-27 14:11:10.380  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:11:10.380  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : DataX (DATAX-OPENSOURCE-3.0), From Alibaba !
+2021-07-27 14:11:10.380  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : Copyright (C) 2010-2017, Alibaba Group. All Rights Reserved.
+2021-07-27 14:11:10.380  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:11:10.835  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:10.833 [main] INFO  VMInfo - VMInfo# operatingSystem class => sun.management.OperatingSystemImpl
+2021-07-27 14:11:10.838  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:10.838 [main] INFO  Engine - the machine info  => 
+2021-07-27 14:11:10.839  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:11:10.839  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	osInfo:	Oracle Corporation 1.8 25.202-b08
+2021-07-27 14:11:10.839  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	jvmInfo:	Windows 10 amd64 10.0
+2021-07-27 14:11:10.839  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	cpu num:	8
+2021-07-27 14:11:10.839  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:11:10.839  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	totalPhysicalMemory:	-0.00G
+2021-07-27 14:11:10.839  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	freePhysicalMemory:	-0.00G
+2021-07-27 14:11:10.839  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	maxFileDescriptorCount:	-1
+2021-07-27 14:11:10.839  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	currentOpenFileDescriptorCount:	-1
+2021-07-27 14:11:10.839  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:11:10.839  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	GC Names	[PS MarkSweep, PS Scavenge]
+2021-07-27 14:11:10.839  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:11:10.839  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	MEMORY_NAME                    | allocation_size                | init_size                      
+2021-07-27 14:11:10.839  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	PS Eden Space                  | 256.00MB                       | 256.00MB                       
+2021-07-27 14:11:10.839  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	Code Cache                     | 240.00MB                       | 2.44MB                         
+2021-07-27 14:11:10.839  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	Compressed Class Space         | 1,024.00MB                     | 0.00MB                         
+2021-07-27 14:11:10.840  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	PS Survivor Space              | 42.50MB                        | 42.50MB                        
+2021-07-27 14:11:10.840  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	PS Old Gen                     | 683.00MB                       | 683.00MB                       
+2021-07-27 14:11:10.840  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	Metaspace                      | -0.00MB                        | 0.00MB                         
+2021-07-27 14:11:10.840  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:11:10.840  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:11:10.857  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:10.857 [main] INFO  Engine - 
+2021-07-27 14:11:10.858  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : {
+2021-07-27 14:11:10.858  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	"content":[
+2021-07-27 14:11:10.858  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		{
+2021-07-27 14:11:10.858  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"reader":{
+2021-07-27 14:11:10.858  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"name":"mysqlreader",
+2021-07-27 14:11:10.858  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"parameter":{
+2021-07-27 14:11:10.858  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"column":[
+2021-07-27 14:11:10.858  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"id",
+2021-07-27 14:11:10.858  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"name",
+2021-07-27 14:11:10.858  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"age",
+2021-07-27 14:11:10.858  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"height",
+2021-07-27 14:11:10.858  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"updateTime"
+2021-07-27 14:11:10.859  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:11:10.859  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"connection":[
+2021-07-27 14:11:10.859  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						{
+2021-07-27 14:11:10.859  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"jdbcUrl":[
+2021-07-27 14:11:10.859  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 								"jdbc:mysql://127.0.0.1:3306/test"
+2021-07-27 14:11:10.859  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							],
+2021-07-27 14:11:10.859  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"table":[
+2021-07-27 14:11:10.859  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 								"test"
+2021-07-27 14:11:10.859  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							]
+2021-07-27 14:11:10.859  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						}
+2021-07-27 14:11:10.859  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:11:10.859  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"password":"******",
+2021-07-27 14:11:10.859  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"username":"root",
+2021-07-27 14:11:10.859  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"where":"updateTime>''"
+2021-07-27 14:11:10.859  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				}
+2021-07-27 14:11:10.859  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			},
+2021-07-27 14:11:10.859  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"writer":{
+2021-07-27 14:11:10.860  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"name":"mysqlwriter",
+2021-07-27 14:11:10.860  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"parameter":{
+2021-07-27 14:11:10.860  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"column":[
+2021-07-27 14:11:10.860  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"id",
+2021-07-27 14:11:10.860  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"name",
+2021-07-27 14:11:10.860  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"age",
+2021-07-27 14:11:10.860  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"height",
+2021-07-27 14:11:10.860  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"updateTime"
+2021-07-27 14:11:10.860  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:11:10.860  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"connection":[
+2021-07-27 14:11:10.860  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						{
+2021-07-27 14:11:10.860  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"jdbcUrl":"jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8",
+2021-07-27 14:11:10.860  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"table":[
+2021-07-27 14:11:10.860  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 								"test2"
+2021-07-27 14:11:10.860  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							]
+2021-07-27 14:11:10.860  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						}
+2021-07-27 14:11:10.860  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:11:10.860  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"password":"******",
+2021-07-27 14:11:10.860  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"session":[],
+2021-07-27 14:11:10.861  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"username":"root",
+2021-07-27 14:11:10.861  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"writeMode":"update"
+2021-07-27 14:11:10.861  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				}
+2021-07-27 14:11:10.861  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			}
+2021-07-27 14:11:10.861  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		}
+2021-07-27 14:11:10.861  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	],
+2021-07-27 14:11:10.861  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	"setting":{
+2021-07-27 14:11:10.861  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		"errorLimit":{
+2021-07-27 14:11:10.861  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"percentage":0.02,
+2021-07-27 14:11:10.861  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"record":0
+2021-07-27 14:11:10.861  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		},
+2021-07-27 14:11:10.861  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		"speed":{
+2021-07-27 14:11:10.861  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"channel":8
+2021-07-27 14:11:10.861  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		}
+2021-07-27 14:11:10.861  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	}
+2021-07-27 14:11:10.861  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : }
+2021-07-27 14:11:10.861  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:11:10.875  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:10.875 [main] WARN  Engine - prioriy set to 0, because NumberFormatException, the value is: null
+2021-07-27 14:11:10.877  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:10.877 [main] INFO  PerfTrace - PerfTrace traceId=job_-1, isEnable=false, priority=0
+2021-07-27 14:11:10.877  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:10.877 [main] INFO  JobContainer - DataX jobContainer starts job.
+2021-07-27 14:11:10.879  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:10.879 [main] INFO  JobContainer - Set jobId = 0
+2021-07-27 14:11:11.150  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.149 [job-0] INFO  OriginalConfPretreatmentUtil - Available jdbcUrl:jdbc:mysql://127.0.0.1:3306/test?yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true.
+2021-07-27 14:11:11.161  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.161 [job-0] INFO  OriginalConfPretreatmentUtil - table:[test] has columns:[id,name,age,height,updateTime,name1].
+2021-07-27 14:11:11.340  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.340 [job-0] INFO  OriginalConfPretreatmentUtil - table:[test2] all columns:[
+2021-07-27 14:11:11.341  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : id,name,age,height,updateTime,name132
+2021-07-27 14:11:11.341  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : ].
+2021-07-27 14:11:11.350  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.350 [job-0] INFO  OriginalConfPretreatmentUtil - Write data [
+2021-07-27 14:11:11.350  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : INSERT INTO %s (id,name,age,height,updateTime) VALUES(?,?,?,?,?) ON DUPLICATE KEY UPDATE id=VALUES(id),name=VALUES(name),age=VALUES(age),height=VALUES(height),updateTime=VALUES(updateTime)
+2021-07-27 14:11:11.350  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : ], which jdbcUrl like:[jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8&yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true]
+2021-07-27 14:11:11.351  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.350 [job-0] INFO  JobContainer - jobContainer starts to do prepare ...
+2021-07-27 14:11:11.351  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.351 [job-0] INFO  JobContainer - DataX Reader.Job [mysqlreader] do prepare work .
+2021-07-27 14:11:11.351  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.351 [job-0] INFO  JobContainer - DataX Writer.Job [mysqlwriter] do prepare work .
+2021-07-27 14:11:11.351  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.351 [job-0] INFO  JobContainer - jobContainer starts to do split ...
+2021-07-27 14:11:11.351  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.351 [job-0] INFO  JobContainer - Job set Channel-Number to 8 channels.
+2021-07-27 14:11:11.353  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.353 [job-0] INFO  JobContainer - DataX Reader.Job [mysqlreader] splits to [1] tasks.
+2021-07-27 14:11:11.354  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.354 [job-0] INFO  JobContainer - DataX Writer.Job [mysqlwriter] splits to [1] tasks.
+2021-07-27 14:11:11.366  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.365 [job-0] INFO  JobContainer - jobContainer starts to do schedule ...
+2021-07-27 14:11:11.368  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.368 [job-0] INFO  JobContainer - Scheduler starts [1] taskGroups.
+2021-07-27 14:11:11.370  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.369 [job-0] INFO  JobContainer - Running by standalone Mode.
+2021-07-27 14:11:11.375  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.374 [taskGroup-0] INFO  TaskGroupContainer - taskGroupId=[0] start [1] channels for [1] tasks.
+2021-07-27 14:11:11.377  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.377 [taskGroup-0] INFO  Channel - Channel set byte_speed_limit to -1, No bps activated.
+2021-07-27 14:11:11.377  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.377 [taskGroup-0] INFO  Channel - Channel set record_speed_limit to -1, No tps activated.
+2021-07-27 14:11:11.384  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.384 [taskGroup-0] INFO  TaskGroupContainer - taskGroup[0] taskId[0] attemptCount[1] is started
+2021-07-27 14:11:11.387  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.387 [0-0-0-reader] INFO  CommonRdbmsReader$Task - Begin to read record by Sql: [select id,name,age,height,updateTime from test where (updateTime>'')
+2021-07-27 14:11:11.387  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : ] jdbcUrl:[jdbc:mysql://127.0.0.1:3306/test?yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true].
+2021-07-27 14:11:11.863  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.863 [0-0-0-reader] INFO  CommonRdbmsReader$Task - Finished read record by Sql: [select id,name,age,height,updateTime from test where (updateTime>'')
+2021-07-27 14:11:11.863  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : ] jdbcUrl:[jdbc:mysql://127.0.0.1:3306/test?yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true].
+2021-07-27 14:11:11.924  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.924 [taskGroup-0] INFO  TaskGroupContainer - taskGroup[0] taskId[0] is successed, used[541]ms
+2021-07-27 14:11:11.924  INFO 35808 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:11:11.924 [taskGroup-0] INFO  TaskGroupContainer - taskGroup[0] completed it's tasks.
+2021-07-27 14:11:15.514  INFO 35808 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-07-27 14:11:15.515  INFO 35808 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-07-27 14:11:15.515  INFO 35808 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2021-07-27 14:11:15.515  INFO 35808 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-07-27 14:11:15.515  INFO 35808 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2021-07-27 14:11:15.515  INFO 35808 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2021-07-27 14:11:15.516  INFO 35808 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-07-27 14:11:15.516  INFO 35808 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-27 14:11:21.625  INFO 38528 --- [main] c.j.s.SpringBootDataxApplicationTests    : Starting SpringBootDataxApplicationTests on LAPTOP-UN0BMNLC with PID 38528 (started by jiangw in D:\java\personal\review\spring-boot-datax)
+2021-07-27 14:11:21.626  INFO 38528 --- [main] c.j.s.SpringBootDataxApplicationTests    : No active profile set, falling back to default profiles: default
+2021-07-27 14:11:23.530  INFO 38528 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-27 14:11:24.008  INFO 38528 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-07-27 14:11:24.392  INFO 38528 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-07-27 14:11:24.537  INFO 38528 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2021-07-27 14:11:24.563  INFO 38528 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-07-27 14:11:24.563  INFO 38528 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2021-07-27 14:11:24.565  INFO 38528 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2021-07-27 14:11:24.567  INFO 38528 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-07-27 14:11:24.568  INFO 38528 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-07-27 14:11:24.568  INFO 38528 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2021-07-27 14:11:24.568  INFO 38528 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@644d1b61
+2021-07-27 14:11:24.689  INFO 38528 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-07-27 14:11:24.690  INFO 38528 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-07-27 14:11:24.712  INFO 38528 --- [main] c.j.s.SpringBootDataxApplicationTests    : Started SpringBootDataxApplicationTests in 3.96 seconds (JVM running for 5.798)
+2021-07-27 14:12:21.049  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:12:22.125  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : DataX (DATAX-OPENSOURCE-3.0), From Alibaba !
+2021-07-27 14:12:23.040  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : Copyright (C) 2010-2017, Alibaba Group. All Rights Reserved.
+2021-07-27 14:12:23.957  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:12:24.893  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:19.741 [main] INFO  VMInfo - VMInfo# operatingSystem class => sun.management.OperatingSystemImpl
+2021-07-27 14:12:33.108  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:19.747 [main] INFO  Engine - the machine info  => 
+2021-07-27 14:12:33.108  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:12:33.108  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	osInfo:	Oracle Corporation 1.8 25.202-b08
+2021-07-27 14:12:33.108  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	jvmInfo:	Windows 10 amd64 10.0
+2021-07-27 14:12:33.108  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	cpu num:	8
+2021-07-27 14:12:33.108  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:12:33.108  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	totalPhysicalMemory:	-0.00G
+2021-07-27 14:12:33.108  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	freePhysicalMemory:	-0.00G
+2021-07-27 14:12:33.108  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	maxFileDescriptorCount:	-1
+2021-07-27 14:12:33.108  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	currentOpenFileDescriptorCount:	-1
+2021-07-27 14:12:33.108  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:12:33.108  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	GC Names	[PS MarkSweep, PS Scavenge]
+2021-07-27 14:12:33.108  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:12:33.108  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	MEMORY_NAME                    | allocation_size                | init_size                      
+2021-07-27 14:12:33.108  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	PS Eden Space                  | 256.00MB                       | 256.00MB                       
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	Code Cache                     | 240.00MB                       | 2.44MB                         
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	Compressed Class Space         | 1,024.00MB                     | 0.00MB                         
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	PS Survivor Space              | 42.50MB                        | 42.50MB                        
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	PS Old Gen                     | 683.00MB                       | 683.00MB                       
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	Metaspace                      | -0.00MB                        | 0.00MB                         
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:19.765 [main] INFO  Engine - 
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : {
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	"content":[
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		{
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"reader":{
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"name":"mysqlreader",
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"parameter":{
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"column":[
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"id",
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"name",
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"age",
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"height",
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"updateTime"
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:12:33.109  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"connection":[
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						{
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"jdbcUrl":[
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 								"jdbc:mysql://127.0.0.1:3306/test"
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							],
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"table":[
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 								"test"
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							]
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						}
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"password":"******",
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"username":"root",
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"where":"updateTime>'2021-03-24 11:31:08.0'"
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				}
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			},
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"writer":{
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"name":"mysqlwriter",
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"parameter":{
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"column":[
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"id",
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"name",
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"age",
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"height",
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"updateTime"
+2021-07-27 14:12:33.110  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"connection":[
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						{
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"jdbcUrl":"jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8",
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"table":[
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 								"test2"
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							]
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						}
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"password":"******",
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"session":[],
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"username":"root",
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"writeMode":"update"
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				}
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			}
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		}
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	],
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	"setting":{
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		"errorLimit":{
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"percentage":0.02,
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"record":0
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		},
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		"speed":{
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"channel":8
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		}
+2021-07-27 14:12:33.111  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	}
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : }
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:19.779 [main] WARN  Engine - prioriy set to 0, because NumberFormatException, the value is: null
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:19.780 [main] INFO  PerfTrace - PerfTrace traceId=job_-1, isEnable=false, priority=0
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:19.780 [main] INFO  JobContainer - DataX jobContainer starts job.
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:19.781 [main] INFO  JobContainer - Set jobId = 0
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:20.018 [job-0] INFO  OriginalConfPretreatmentUtil - Available jdbcUrl:jdbc:mysql://127.0.0.1:3306/test?yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true.
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:20.031 [job-0] INFO  OriginalConfPretreatmentUtil - table:[test] has columns:[id,name,age,height,updateTime,name1].
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:20.205 [job-0] INFO  OriginalConfPretreatmentUtil - table:[test2] all columns:[
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : id,name,age,height,updateTime,name132
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : ].
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:20.212 [job-0] INFO  OriginalConfPretreatmentUtil - Write data [
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : INSERT INTO %s (id,name,age,height,updateTime) VALUES(?,?,?,?,?) ON DUPLICATE KEY UPDATE id=VALUES(id),name=VALUES(name),age=VALUES(age),height=VALUES(height),updateTime=VALUES(updateTime)
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : ], which jdbcUrl like:[jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8&yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true]
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:20.212 [job-0] INFO  JobContainer - jobContainer starts to do prepare ...
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:20.212 [job-0] INFO  JobContainer - DataX Reader.Job [mysqlreader] do prepare work .
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:20.212 [job-0] INFO  JobContainer - DataX Writer.Job [mysqlwriter] do prepare work .
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:20.213 [job-0] INFO  JobContainer - jobContainer starts to do split ...
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:20.213 [job-0] INFO  JobContainer - Job set Channel-Number to 8 channels.
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:20.215 [job-0] INFO  JobContainer - DataX Reader.Job [mysqlreader] splits to [1] tasks.
+2021-07-27 14:12:33.112  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:20.606 [job-0] INFO  JobContainer - DataX Writer.Job [mysqlwriter] splits to [1] tasks.
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:20.622 [job-0] INFO  JobContainer - jobContainer starts to do schedule ...
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:20.625 [job-0] INFO  JobContainer - Scheduler starts [1] taskGroups.
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:20.627 [job-0] INFO  JobContainer - Running by standalone Mode.
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:20.633 [taskGroup-0] INFO  TaskGroupContainer - taskGroupId=[0] start [1] channels for [1] tasks.
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:20.637 [taskGroup-0] INFO  Channel - Channel set byte_speed_limit to -1, No bps activated.
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:20.637 [taskGroup-0] INFO  Channel - Channel set record_speed_limit to -1, No tps activated.
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:20.644 [taskGroup-0] INFO  TaskGroupContainer - taskGroup[0] taskId[0] attemptCount[1] is started
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:20.648 [0-0-0-reader] INFO  CommonRdbmsReader$Task - Begin to read record by Sql: [select id,name,age,height,updateTime from test where (updateTime>'2021-03-24 11:31:08.0')
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : ] jdbcUrl:[jdbc:mysql://127.0.0.1:3306/test?yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true].
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:21.035 [0-0-0-reader] INFO  CommonRdbmsReader$Task - Finished read record by Sql: [select id,name,age,height,updateTime from test where (updateTime>'2021-03-24 11:31:08.0')
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : ] jdbcUrl:[jdbc:mysql://127.0.0.1:3306/test?yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true].
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:21.304 [taskGroup-0] INFO  TaskGroupContainer - taskGroup[0] taskId[0] is successed, used[661]ms
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:21.304 [taskGroup-0] INFO  TaskGroupContainer - taskGroup[0] completed it's tasks.
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:30.646 [job-0] INFO  StandAloneJobContainerCommunicator - Total 0 records, 0 bytes | Speed 0B/s, 0 records/s | Error 0 records, 0 bytes |  All Task WaitWriterTime 0.000s |  All Task WaitReaderTime 0.000s | Percentage 100.00%
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:30.647 [job-0] INFO  AbstractScheduler - Scheduler accomplished all tasks.
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:30.647 [job-0] INFO  JobContainer - DataX Writer.Job [mysqlwriter] do post work.
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:30.647 [job-0] INFO  JobContainer - DataX Reader.Job [mysqlreader] do post work.
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:30.647 [job-0] INFO  JobContainer - DataX jobId [0] completed successfully.
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:30.648 [job-0] INFO  HookInvoker - No hook invoked, because base dir not exists or is a file: D:\tools\datax\datax\hook
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:30.649 [job-0] INFO  JobContainer - 
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	 [total cpu info] => 
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		averageCpu                     | maxDeltaCpu                    | minDeltaCpu                    
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		-1.00%                         | -1.00%                         | -1.00%
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            :                         
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:12:33.113  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	 [total gc info] => 
+2021-07-27 14:12:33.114  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		 NAME                 | totalGCCount       | maxDeltaGCCount    | minDeltaGCCount    | totalGCTime        | maxDeltaGCTime     | minDeltaGCTime     
+2021-07-27 14:12:33.114  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		 PS MarkSweep         | 0                  | 0                  | 0                  | 0.000s             | 0.000s             | 0.000s             
+2021-07-27 14:12:33.114  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		 PS Scavenge          | 0                  | 0                  | 0                  | 0.000s             | 0.000s             | 0.000s             
+2021-07-27 14:12:33.114  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:12:33.114  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:30.649 [job-0] INFO  JobContainer - PerfTrace not enable!
+2021-07-27 14:12:33.114  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:30.649 [job-0] INFO  StandAloneJobContainerCommunicator - Total 0 records, 0 bytes | Speed 0B/s, 0 records/s | Error 0 records, 0 bytes |  All Task WaitWriterTime 0.000s |  All Task WaitReaderTime 0.000s | Percentage 100.00%
+2021-07-27 14:12:33.114  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:12:30.650 [job-0] INFO  JobContainer - 
+2021-07-27 14:12:33.114  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 任务启动时刻                    : 2021-07-27 14:12:19
+2021-07-27 14:12:33.114  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 任务结束时刻                    : 2021-07-27 14:12:30
+2021-07-27 14:12:33.114  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 任务总计耗时                    :                 10s
+2021-07-27 14:12:33.114  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 任务平均流量                    :                0B/s
+2021-07-27 14:12:33.114  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 记录写入速度                    :              0rec/s
+2021-07-27 14:12:33.114  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 读出记录总数                    :                   0
+2021-07-27 14:12:33.115  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 读写失败总数                    :                   0
+2021-07-27 14:12:33.115  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:01.013  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:01.566  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : DataX (DATAX-OPENSOURCE-3.0), From Alibaba !
+2021-07-27 14:13:05.786  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : Copyright (C) 2010-2017, Alibaba Group. All Rights Reserved.
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:00.655 [main] INFO  VMInfo - VMInfo# operatingSystem class => sun.management.OperatingSystemImpl
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:00.660 [main] INFO  Engine - the machine info  => 
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	osInfo:	Oracle Corporation 1.8 25.202-b08
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	jvmInfo:	Windows 10 amd64 10.0
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	cpu num:	8
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	totalPhysicalMemory:	-0.00G
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	freePhysicalMemory:	-0.00G
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	maxFileDescriptorCount:	-1
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	currentOpenFileDescriptorCount:	-1
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	GC Names	[PS MarkSweep, PS Scavenge]
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	MEMORY_NAME                    | allocation_size                | init_size                      
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	PS Eden Space                  | 256.00MB                       | 256.00MB                       
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	Code Cache                     | 240.00MB                       | 2.44MB                         
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	Compressed Class Space         | 1,024.00MB                     | 0.00MB                         
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	PS Survivor Space              | 42.50MB                        | 42.50MB                        
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	PS Old Gen                     | 683.00MB                       | 683.00MB                       
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	Metaspace                      | -0.00MB                        | 0.00MB                         
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:05.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:00.674 [main] INFO  Engine - 
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : {
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	"content":[
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		{
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"reader":{
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"name":"sqlserverreader",
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"parameter":{
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"column":[
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"*"
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"connection":[
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						{
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"jdbcUrl":[
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 								"jdbc:sqlserver://localhost:1433;DatabaseName=test;integratedSecurity=false"
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							],
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"table":[
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 								"gtws_net"
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							]
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						}
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"password":"******",
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"splitPk":"gid",
+2021-07-27 14:13:05.788  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"username":"sa",
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"where":"modtime>'2021-03-20 11:59:04.0'"
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				}
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			},
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"writer":{
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"name":"mysqlwriter",
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"parameter":{
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"column":[
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"*"
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"connection":[
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						{
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"jdbcUrl":"jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8",
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"table":[
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 								"gtws_net"
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							]
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						}
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"password":"******",
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"preSql":[],
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"session":[
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"set session sql_mode='ANSI'"
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"username":"root",
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"writeMode":"update"
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				}
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			}
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		}
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	],
+2021-07-27 14:13:05.789  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	"setting":{
+2021-07-27 14:13:05.790  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		"errorLimit":{
+2021-07-27 14:13:05.790  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"percentage":0.02,
+2021-07-27 14:13:05.790  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"record":0
+2021-07-27 14:13:05.790  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		},
+2021-07-27 14:13:05.790  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		"speed":{
+2021-07-27 14:13:05.790  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"channel":3
+2021-07-27 14:13:05.790  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		}
+2021-07-27 14:13:05.790  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	}
+2021-07-27 14:13:05.790  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : }
+2021-07-27 14:13:05.790  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:05.790  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:00.686 [main] WARN  Engine - prioriy set to 0, because NumberFormatException, the value is: null
+2021-07-27 14:13:05.790  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:00.687 [main] INFO  PerfTrace - PerfTrace traceId=job_-1, isEnable=false, priority=0
+2021-07-27 14:13:05.790  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:00.688 [main] INFO  JobContainer - DataX jobContainer starts job.
+2021-07-27 14:13:05.790  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:00.689 [main] INFO  JobContainer - Set jobId = 0
+2021-07-27 14:13:06.494  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:06.494 [job-0] INFO  OriginalConfPretreatmentUtil - Available jdbcUrl:jdbc:sqlserver://localhost:1433;DatabaseName=test;integratedSecurity=false.
+2021-07-27 14:13:06.495  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:06.495 [job-0] WARN  OriginalConfPretreatmentUtil - 您的配置文件中的列配置存在一定的风险. 因为您未配置读取数据库表的列，当您的表字段个数、类型有变动时，可能影响任务正确性甚至会运行出错。请检查您的配置并作出修改.
+2021-07-27 14:13:06.691  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:06.691 [job-0] INFO  OriginalConfPretreatmentUtil - table:[gtws_net] all columns:[
+2021-07-27 14:13:06.691  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : gid,bm,wz,bz,crttime,modtime,crtuser,moduser,guid,ogid,hasattachment
+2021-07-27 14:13:06.691  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : ].
+2021-07-27 14:13:06.691  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:06.691 [job-0] WARN  OriginalConfPretreatmentUtil - 您的配置文件中的列配置信息存在风险. 因为您配置的写入数据库表的列为*，当您的表字段个数、类型有变动时，可能影响任务正确性甚至会运行出错。请检查您的配置并作出修改.
+2021-07-27 14:13:06.692  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:06.692 [job-0] INFO  OriginalConfPretreatmentUtil - Write data [
+2021-07-27 14:13:06.693  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : INSERT INTO %s (gid,bm,wz,bz,crttime,modtime,crtuser,moduser,guid,ogid,hasattachment) VALUES(?,?,?,?,?,?,?,?,?,?,?) ON DUPLICATE KEY UPDATE gid=VALUES(gid),bm=VALUES(bm),wz=VALUES(wz),bz=VALUES(bz),crttime=VALUES(crttime),modtime=VALUES(modtime),crtuser=VALUES(crtuser),moduser=VALUES(moduser),guid=VALUES(guid),ogid=VALUES(ogid),hasattachment=VALUES(hasattachment)
+2021-07-27 14:13:06.693  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : ], which jdbcUrl like:[jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8&yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true]
+2021-07-27 14:13:06.693  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:06.693 [job-0] INFO  JobContainer - jobContainer starts to do prepare ...
+2021-07-27 14:13:06.693  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:06.693 [job-0] INFO  JobContainer - DataX Reader.Job [sqlserverreader] do prepare work .
+2021-07-27 14:13:06.693  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:06.693 [job-0] INFO  JobContainer - DataX Writer.Job [mysqlwriter] do prepare work .
+2021-07-27 14:13:06.694  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:06.694 [job-0] INFO  JobContainer - jobContainer starts to do split ...
+2021-07-27 14:13:06.694  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:06.694 [job-0] INFO  JobContainer - Job set Channel-Number to 3 channels.
+2021-07-27 14:13:06.755  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:06.755 [job-0] INFO  SingleTableSplitUtil - split pk [sql=SELECT MIN(gid),MAX(gid) FROM gtws_net WHERE (modtime>'2021-03-20 11:59:04.0' AND gid IS NOT NULL)] is running... 
+2021-07-27 14:13:06.774  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:06.773 [job-0] ERROR JobContainer - Exception when job run
+2021-07-27 14:13:06.774  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : com.alibaba.datax.common.exception.DataXException: Code:[DBUtilErrorCode-06], Description:[执行数据库 Sql 失败, 请检查您的配置的 column/table/where/querySql或者向 DBA 寻求帮助.].  - 执行的SQL为: SELECT MIN(gid),MAX(gid) FROM gtws_net WHERE (modtime>'2021-03-20 11:59:04.0' AND gid IS NOT NULL) 具体错误信息为：com.microsoft.sqlserver.jdbc.SQLServerException: 对象名 'gtws_net' 无效。
+2021-07-27 14:13:06.774  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.common.exception.DataXException.asDataXException(DataXException.java:26) ~[datax-common-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:06.774  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.util.RdbmsException.asQueryException(RdbmsException.java:97) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:06.774  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.reader.util.SingleTableSplitUtil.checkSplitPk(SingleTableSplitUtil.java:180) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:06.774  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.reader.util.SingleTableSplitUtil.getPkRange(SingleTableSplitUtil.java:152) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:06.774  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.reader.util.SingleTableSplitUtil.splitSingleTable(SingleTableSplitUtil.java:50) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:06.775  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.reader.util.ReaderSplitUtil.doSplit(ReaderSplitUtil.java:78) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:06.775  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.reader.CommonRdbmsReader$Job.split(CommonRdbmsReader.java:103) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:06.775  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.reader.sqlserverreader.SqlServerReader$Job.split(SqlServerReader.java:45) ~[sqlserverreader-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:06.775  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.job.JobContainer.doReaderSplit(JobContainer.java:732) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:06.775  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.job.JobContainer.split(JobContainer.java:393) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:06.775  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.job.JobContainer.start(JobContainer.java:117) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:06.775  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.Engine.start(Engine.java:92) [datax-core-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:06.775  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.Engine.entry(Engine.java:171) [datax-core-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:06.775  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.Engine.main(Engine.java:204) [datax-core-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:06.777  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:06.776 [job-0] INFO  StandAloneJobContainerCommunicator - Total 0 records, 0 bytes | Speed 0B/s, 0 records/s | Error 0 records, 0 bytes |  All Task WaitWriterTime 0.000s |  All Task WaitReaderTime 0.000s | Percentage 0.00%
+2021-07-27 14:13:06.778  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:06.778 [job-0] ERROR Engine - 
+2021-07-27 14:13:06.778  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:06.778  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 经DataX智能分析,该任务最可能的错误原因是:
+2021-07-27 14:13:06.778  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : com.alibaba.datax.common.exception.DataXException: Code:[DBUtilErrorCode-06], Description:[执行数据库 Sql 失败, 请检查您的配置的 column/table/where/querySql或者向 DBA 寻求帮助.].  - 执行的SQL为: SELECT MIN(gid),MAX(gid) FROM gtws_net WHERE (modtime>'2021-03-20 11:59:04.0' AND gid IS NOT NULL) 具体错误信息为：com.microsoft.sqlserver.jdbc.SQLServerException: 对象名 'gtws_net' 无效。
+2021-07-27 14:13:06.778  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.common.exception.DataXException.asDataXException(DataXException.java:26)
+2021-07-27 14:13:06.778  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.util.RdbmsException.asQueryException(RdbmsException.java:97)
+2021-07-27 14:13:06.778  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.reader.util.SingleTableSplitUtil.checkSplitPk(SingleTableSplitUtil.java:180)
+2021-07-27 14:13:06.778  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.reader.util.SingleTableSplitUtil.getPkRange(SingleTableSplitUtil.java:152)
+2021-07-27 14:13:06.778  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.reader.util.SingleTableSplitUtil.splitSingleTable(SingleTableSplitUtil.java:50)
+2021-07-27 14:13:06.778  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.reader.util.ReaderSplitUtil.doSplit(ReaderSplitUtil.java:78)
+2021-07-27 14:13:06.778  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.reader.CommonRdbmsReader$Job.split(CommonRdbmsReader.java:103)
+2021-07-27 14:13:06.778  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.reader.sqlserverreader.SqlServerReader$Job.split(SqlServerReader.java:45)
+2021-07-27 14:13:06.778  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.job.JobContainer.doReaderSplit(JobContainer.java:732)
+2021-07-27 14:13:06.778  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.job.JobContainer.split(JobContainer.java:393)
+2021-07-27 14:13:06.778  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.job.JobContainer.start(JobContainer.java:117)
+2021-07-27 14:13:06.778  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.Engine.start(Engine.java:92)
+2021-07-27 14:13:06.778  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.Engine.entry(Engine.java:171)
+2021-07-27 14:13:06.778  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.Engine.main(Engine.java:204)
+2021-07-27 14:13:06.778  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:08.335  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:08.335  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : DataX (DATAX-OPENSOURCE-3.0), From Alibaba !
+2021-07-27 14:13:08.335  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : Copyright (C) 2010-2017, Alibaba Group. All Rights Reserved.
+2021-07-27 14:13:08.335  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:08.755  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:08.754 [main] INFO  VMInfo - VMInfo# operatingSystem class => sun.management.OperatingSystemImpl
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:08.758 [main] INFO  Engine - the machine info  => 
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	osInfo:	Oracle Corporation 1.8 25.202-b08
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	jvmInfo:	Windows 10 amd64 10.0
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	cpu num:	8
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	totalPhysicalMemory:	-0.00G
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	freePhysicalMemory:	-0.00G
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	maxFileDescriptorCount:	-1
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	currentOpenFileDescriptorCount:	-1
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	GC Names	[PS MarkSweep, PS Scavenge]
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	MEMORY_NAME                    | allocation_size                | init_size                      
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	PS Eden Space                  | 256.00MB                       | 256.00MB                       
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	Code Cache                     | 240.00MB                       | 2.44MB                         
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	Compressed Class Space         | 1,024.00MB                     | 0.00MB                         
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	PS Survivor Space              | 42.50MB                        | 42.50MB                        
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	PS Old Gen                     | 683.00MB                       | 683.00MB                       
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	Metaspace                      | -0.00MB                        | 0.00MB                         
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:08.759  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:08.772  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:08.772 [main] INFO  Engine - 
+2021-07-27 14:13:08.772  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : {
+2021-07-27 14:13:08.772  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	"content":[
+2021-07-27 14:13:08.772  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		{
+2021-07-27 14:13:08.772  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"reader":{
+2021-07-27 14:13:08.772  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"name":"sqlserverreader",
+2021-07-27 14:13:08.772  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"parameter":{
+2021-07-27 14:13:08.772  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"column":[
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"*"
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"connection":[
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						{
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"jdbcUrl":[
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 								"jdbc:sqlserver://localhost:1433;DatabaseName=test;integratedSecurity=false"
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							],
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"table":[
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 								"gtws_net"
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							]
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						}
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"password":"******",
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"splitPk":"gid",
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"username":"sa",
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"where":"modtime>'2021-03-20 11:59:04.0'"
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				}
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			},
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"writer":{
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"name":"mysqlwriter",
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"parameter":{
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"column":[
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"*"
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"connection":[
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						{
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"jdbcUrl":"jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8",
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"table":[
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 								"gtws_net"
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							]
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						}
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"password":"******",
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"preSql":[],
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"session":[
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"set session sql_mode='ANSI'"
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"username":"root",
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"writeMode":"update"
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				}
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			}
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		}
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	],
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	"setting":{
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		"errorLimit":{
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"percentage":0.02,
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"record":0
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		},
+2021-07-27 14:13:08.773  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		"speed":{
+2021-07-27 14:13:08.774  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"channel":3
+2021-07-27 14:13:08.774  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		}
+2021-07-27 14:13:08.774  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	}
+2021-07-27 14:13:08.774  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : }
+2021-07-27 14:13:08.774  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:08.785  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:08.785 [main] WARN  Engine - prioriy set to 0, because NumberFormatException, the value is: null
+2021-07-27 14:13:08.786  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:08.786 [main] INFO  PerfTrace - PerfTrace traceId=job_-1, isEnable=false, priority=0
+2021-07-27 14:13:08.786  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:08.786 [main] INFO  JobContainer - DataX jobContainer starts job.
+2021-07-27 14:13:08.787  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:08.787 [main] INFO  JobContainer - Set jobId = 0
+2021-07-27 14:13:14.440  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:14.440 [job-0] INFO  OriginalConfPretreatmentUtil - Available jdbcUrl:jdbc:sqlserver://localhost:1433;DatabaseName=test;integratedSecurity=false.
+2021-07-27 14:13:14.441  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:14.441 [job-0] WARN  OriginalConfPretreatmentUtil - 您的配置文件中的列配置存在一定的风险. 因为您未配置读取数据库表的列，当您的表字段个数、类型有变动时，可能影响任务正确性甚至会运行出错。请检查您的配置并作出修改.
+2021-07-27 14:13:14.626  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:14.625 [job-0] INFO  OriginalConfPretreatmentUtil - table:[gtws_net] all columns:[
+2021-07-27 14:13:14.626  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : gid,bm,wz,bz,crttime,modtime,crtuser,moduser,guid,ogid,hasattachment
+2021-07-27 14:13:14.626  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : ].
+2021-07-27 14:13:14.626  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:14.626 [job-0] WARN  OriginalConfPretreatmentUtil - 您的配置文件中的列配置信息存在风险. 因为您配置的写入数据库表的列为*，当您的表字段个数、类型有变动时，可能影响任务正确性甚至会运行出错。请检查您的配置并作出修改.
+2021-07-27 14:13:14.627  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:14.627 [job-0] INFO  OriginalConfPretreatmentUtil - Write data [
+2021-07-27 14:13:14.627  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : INSERT INTO %s (gid,bm,wz,bz,crttime,modtime,crtuser,moduser,guid,ogid,hasattachment) VALUES(?,?,?,?,?,?,?,?,?,?,?) ON DUPLICATE KEY UPDATE gid=VALUES(gid),bm=VALUES(bm),wz=VALUES(wz),bz=VALUES(bz),crttime=VALUES(crttime),modtime=VALUES(modtime),crtuser=VALUES(crtuser),moduser=VALUES(moduser),guid=VALUES(guid),ogid=VALUES(ogid),hasattachment=VALUES(hasattachment)
+2021-07-27 14:13:14.627  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : ], which jdbcUrl like:[jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8&yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true]
+2021-07-27 14:13:14.627  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:14.627 [job-0] INFO  JobContainer - jobContainer starts to do prepare ...
+2021-07-27 14:13:14.627  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:14.627 [job-0] INFO  JobContainer - DataX Reader.Job [sqlserverreader] do prepare work .
+2021-07-27 14:13:14.628  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:14.627 [job-0] INFO  JobContainer - DataX Writer.Job [mysqlwriter] do prepare work .
+2021-07-27 14:13:14.628  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:14.628 [job-0] INFO  JobContainer - jobContainer starts to do split ...
+2021-07-27 14:13:14.628  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:14.628 [job-0] INFO  JobContainer - Job set Channel-Number to 3 channels.
+2021-07-27 14:13:14.687  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:14.687 [job-0] INFO  SingleTableSplitUtil - split pk [sql=SELECT MIN(gid),MAX(gid) FROM gtws_net WHERE (modtime>'2021-03-20 11:59:04.0' AND gid IS NOT NULL)] is running... 
+2021-07-27 14:13:14.696  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:14.696 [job-0] ERROR JobContainer - Exception when job run
+2021-07-27 14:13:14.697  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : com.alibaba.datax.common.exception.DataXException: Code:[DBUtilErrorCode-06], Description:[执行数据库 Sql 失败, 请检查您的配置的 column/table/where/querySql或者向 DBA 寻求帮助.].  - 执行的SQL为: SELECT MIN(gid),MAX(gid) FROM gtws_net WHERE (modtime>'2021-03-20 11:59:04.0' AND gid IS NOT NULL) 具体错误信息为：com.microsoft.sqlserver.jdbc.SQLServerException: 对象名 'gtws_net' 无效。
+2021-07-27 14:13:14.697  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.common.exception.DataXException.asDataXException(DataXException.java:26) ~[datax-common-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:14.697  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.util.RdbmsException.asQueryException(RdbmsException.java:97) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:14.697  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.reader.util.SingleTableSplitUtil.checkSplitPk(SingleTableSplitUtil.java:180) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:14.697  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.reader.util.SingleTableSplitUtil.getPkRange(SingleTableSplitUtil.java:152) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:14.697  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.reader.util.SingleTableSplitUtil.splitSingleTable(SingleTableSplitUtil.java:50) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:14.697  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.reader.util.ReaderSplitUtil.doSplit(ReaderSplitUtil.java:78) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:14.697  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.reader.CommonRdbmsReader$Job.split(CommonRdbmsReader.java:103) ~[plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:14.697  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.reader.sqlserverreader.SqlServerReader$Job.split(SqlServerReader.java:45) ~[sqlserverreader-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:14.697  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.job.JobContainer.doReaderSplit(JobContainer.java:732) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:14.697  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.job.JobContainer.split(JobContainer.java:393) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:14.697  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.job.JobContainer.start(JobContainer.java:117) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:14.697  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.Engine.start(Engine.java:92) [datax-core-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:14.697  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.Engine.entry(Engine.java:171) [datax-core-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:14.697  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.Engine.main(Engine.java:204) [datax-core-0.0.1-SNAPSHOT.jar:na]
+2021-07-27 14:13:14.699  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:14.699 [job-0] INFO  StandAloneJobContainerCommunicator - Total 0 records, 0 bytes | Speed 0B/s, 0 records/s | Error 0 records, 0 bytes |  All Task WaitWriterTime 0.000s |  All Task WaitReaderTime 0.000s | Percentage 0.00%
+2021-07-27 14:13:14.700  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:14.700 [job-0] ERROR Engine - 
+2021-07-27 14:13:14.701  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:14.701  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 经DataX智能分析,该任务最可能的错误原因是:
+2021-07-27 14:13:14.701  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : com.alibaba.datax.common.exception.DataXException: Code:[DBUtilErrorCode-06], Description:[执行数据库 Sql 失败, 请检查您的配置的 column/table/where/querySql或者向 DBA 寻求帮助.].  - 执行的SQL为: SELECT MIN(gid),MAX(gid) FROM gtws_net WHERE (modtime>'2021-03-20 11:59:04.0' AND gid IS NOT NULL) 具体错误信息为：com.microsoft.sqlserver.jdbc.SQLServerException: 对象名 'gtws_net' 无效。
+2021-07-27 14:13:14.701  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.common.exception.DataXException.asDataXException(DataXException.java:26)
+2021-07-27 14:13:14.701  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.util.RdbmsException.asQueryException(RdbmsException.java:97)
+2021-07-27 14:13:14.701  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.reader.util.SingleTableSplitUtil.checkSplitPk(SingleTableSplitUtil.java:180)
+2021-07-27 14:13:14.701  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.reader.util.SingleTableSplitUtil.getPkRange(SingleTableSplitUtil.java:152)
+2021-07-27 14:13:14.701  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.reader.util.SingleTableSplitUtil.splitSingleTable(SingleTableSplitUtil.java:50)
+2021-07-27 14:13:14.701  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.reader.util.ReaderSplitUtil.doSplit(ReaderSplitUtil.java:78)
+2021-07-27 14:13:14.701  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.rdbms.reader.CommonRdbmsReader$Job.split(CommonRdbmsReader.java:103)
+2021-07-27 14:13:14.701  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.plugin.reader.sqlserverreader.SqlServerReader$Job.split(SqlServerReader.java:45)
+2021-07-27 14:13:14.701  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.job.JobContainer.doReaderSplit(JobContainer.java:732)
+2021-07-27 14:13:14.701  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.job.JobContainer.split(JobContainer.java:393)
+2021-07-27 14:13:14.701  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.job.JobContainer.start(JobContainer.java:117)
+2021-07-27 14:13:14.701  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.Engine.start(Engine.java:92)
+2021-07-27 14:13:14.701  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.Engine.entry(Engine.java:171)
+2021-07-27 14:13:14.701  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	at com.alibaba.datax.core.Engine.main(Engine.java:204)
+2021-07-27 14:13:14.701  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:41.031  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:41.032  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : DataX (DATAX-OPENSOURCE-3.0), From Alibaba !
+2021-07-27 14:13:41.032  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : Copyright (C) 2010-2017, Alibaba Group. All Rights Reserved.
+2021-07-27 14:13:41.032  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:41.427  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:41.424 [main] INFO  VMInfo - VMInfo# operatingSystem class => sun.management.OperatingSystemImpl
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:41.430 [main] INFO  Engine - the machine info  => 
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	osInfo:	Oracle Corporation 1.8 25.202-b08
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	jvmInfo:	Windows 10 amd64 10.0
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	cpu num:	8
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	totalPhysicalMemory:	-0.00G
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	freePhysicalMemory:	-0.00G
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	maxFileDescriptorCount:	-1
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	currentOpenFileDescriptorCount:	-1
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	GC Names	[PS MarkSweep, PS Scavenge]
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	MEMORY_NAME                    | allocation_size                | init_size                      
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	PS Eden Space                  | 256.00MB                       | 256.00MB                       
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	Code Cache                     | 240.00MB                       | 2.44MB                         
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	Compressed Class Space         | 1,024.00MB                     | 0.00MB                         
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	PS Survivor Space              | 42.50MB                        | 42.50MB                        
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	PS Old Gen                     | 683.00MB                       | 683.00MB                       
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	Metaspace                      | -0.00MB                        | 0.00MB                         
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:41.431  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:41.444  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:41.444 [main] INFO  Engine - 
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : {
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	"content":[
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		{
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"reader":{
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"name":"sqlserverreader",
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"parameter":{
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"column":[
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"*"
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"connection":[
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						{
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"jdbcUrl":[
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 								"jdbc:sqlserver://localhost:1433;DatabaseName=test;integratedSecurity=false"
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							],
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"table":[
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 								"gtws_net"
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							]
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						}
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"password":"******",
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"splitPk":"gid",
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"username":"sa",
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"where":"modtime>'2021-03-20 11:59:04.0'"
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				}
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			},
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"writer":{
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"name":"mysqlwriter",
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"parameter":{
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"column":[
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"*"
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"connection":[
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						{
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"jdbcUrl":"jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8",
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"table":[
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 								"gtws_net"
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							]
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						}
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:13:41.445  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"password":"******",
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"preSql":[],
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"session":[
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"set session sql_mode='ANSI'"
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"username":"root",
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"writeMode":"update"
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				}
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			}
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		}
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	],
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	"setting":{
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		"errorLimit":{
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"percentage":0.02,
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"record":0
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		},
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		"speed":{
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"channel":3
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		}
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	}
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : }
+2021-07-27 14:13:41.446  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:13:41.459  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:41.459 [main] WARN  Engine - prioriy set to 0, because NumberFormatException, the value is: null
+2021-07-27 14:13:41.460  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:41.460 [main] INFO  PerfTrace - PerfTrace traceId=job_-1, isEnable=false, priority=0
+2021-07-27 14:13:41.461  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:41.461 [main] INFO  JobContainer - DataX jobContainer starts job.
+2021-07-27 14:13:41.462  INFO 38528 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:13:41.462 [main] INFO  JobContainer - Set jobId = 0
+2021-07-27 14:13:41.923  INFO 38528 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-07-27 14:13:41.923  INFO 38528 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-07-27 14:13:41.923  INFO 38528 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2021-07-27 14:13:41.924  INFO 38528 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-07-27 14:13:41.924  INFO 38528 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2021-07-27 14:13:41.924  INFO 38528 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2021-07-27 14:13:41.925  INFO 38528 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-07-27 14:13:41.926  INFO 38528 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-27 14:22:56.103  INFO 34324 --- [main] c.j.s.SpringBootDataxApplicationTests    : Starting SpringBootDataxApplicationTests on LAPTOP-UN0BMNLC with PID 34324 (started by jiangw in D:\java\personal\review\spring-boot-datax)
+2021-07-27 14:22:56.105  INFO 34324 --- [main] c.j.s.SpringBootDataxApplicationTests    : No active profile set, falling back to default profiles: default
+2021-07-27 14:22:57.558  INFO 34324 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-27 14:22:57.956  INFO 34324 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-07-27 14:22:58.288  INFO 34324 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-07-27 14:22:58.391  INFO 34324 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2021-07-27 14:22:58.410  INFO 34324 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-07-27 14:22:58.410  INFO 34324 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2021-07-27 14:22:58.411  INFO 34324 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2021-07-27 14:22:58.412  INFO 34324 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-07-27 14:22:58.412  INFO 34324 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-07-27 14:22:58.412  INFO 34324 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2021-07-27 14:22:58.412  INFO 34324 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@570ba13
+2021-07-27 14:22:58.500  INFO 34324 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-07-27 14:22:58.501  INFO 34324 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-07-27 14:22:58.515  INFO 34324 --- [main] c.j.s.SpringBootDataxApplicationTests    : Started SpringBootDataxApplicationTests in 2.969 seconds (JVM running for 4.56)
+2021-07-27 14:23:02.120  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:23:02.120  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : DataX (DATAX-OPENSOURCE-3.0), From Alibaba !
+2021-07-27 14:23:02.120  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : Copyright (C) 2010-2017, Alibaba Group. All Rights Reserved.
+2021-07-27 14:23:02.120  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:23:02.525  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:02.522 [main] INFO  VMInfo - VMInfo# operatingSystem class => sun.management.OperatingSystemImpl
+2021-07-27 14:23:02.529  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:02.529 [main] INFO  Engine - the machine info  => 
+2021-07-27 14:23:02.529  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:23:02.529  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	osInfo:	Oracle Corporation 1.8 25.202-b08
+2021-07-27 14:23:02.530  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	jvmInfo:	Windows 10 amd64 10.0
+2021-07-27 14:23:02.530  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	cpu num:	8
+2021-07-27 14:23:02.530  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:23:02.530  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	totalPhysicalMemory:	-0.00G
+2021-07-27 14:23:02.530  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	freePhysicalMemory:	-0.00G
+2021-07-27 14:23:02.530  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	maxFileDescriptorCount:	-1
+2021-07-27 14:23:02.530  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	currentOpenFileDescriptorCount:	-1
+2021-07-27 14:23:02.530  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:23:02.530  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	GC Names	[PS MarkSweep, PS Scavenge]
+2021-07-27 14:23:02.530  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:23:02.530  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	MEMORY_NAME                    | allocation_size                | init_size                      
+2021-07-27 14:23:02.530  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	PS Eden Space                  | 256.00MB                       | 256.00MB                       
+2021-07-27 14:23:02.530  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	Code Cache                     | 240.00MB                       | 2.44MB                         
+2021-07-27 14:23:02.530  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	Compressed Class Space         | 1,024.00MB                     | 0.00MB                         
+2021-07-27 14:23:02.530  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	PS Survivor Space              | 42.50MB                        | 42.50MB                        
+2021-07-27 14:23:02.530  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	PS Old Gen                     | 683.00MB                       | 683.00MB                       
+2021-07-27 14:23:02.530  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	Metaspace                      | -0.00MB                        | 0.00MB                         
+2021-07-27 14:23:02.530  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:23:02.530  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:23:02.544  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:02.544 [main] INFO  Engine - 
+2021-07-27 14:23:02.544  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : {
+2021-07-27 14:23:02.544  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	"content":[
+2021-07-27 14:23:02.544  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		{
+2021-07-27 14:23:02.544  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"reader":{
+2021-07-27 14:23:02.544  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"name":"mysqlreader",
+2021-07-27 14:23:02.544  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"parameter":{
+2021-07-27 14:23:02.544  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"column":[
+2021-07-27 14:23:02.545  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"id",
+2021-07-27 14:23:02.545  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"name",
+2021-07-27 14:23:02.545  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"age",
+2021-07-27 14:23:02.545  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"height",
+2021-07-27 14:23:02.545  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"updateTime"
+2021-07-27 14:23:02.545  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:23:02.545  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"connection":[
+2021-07-27 14:23:02.545  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						{
+2021-07-27 14:23:02.545  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"jdbcUrl":[
+2021-07-27 14:23:02.545  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 								"jdbc:mysql://127.0.0.1:3306/test"
+2021-07-27 14:23:02.545  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							],
+2021-07-27 14:23:02.545  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"table":[
+2021-07-27 14:23:02.545  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 								"test"
+2021-07-27 14:23:02.545  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							]
+2021-07-27 14:23:02.545  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						}
+2021-07-27 14:23:02.546  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:23:02.546  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"password":"******",
+2021-07-27 14:23:02.546  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"username":"root",
+2021-07-27 14:23:02.546  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"where":"updateTime>'2021-03-24 11:31:08.0'"
+2021-07-27 14:23:02.546  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				}
+2021-07-27 14:23:02.546  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			},
+2021-07-27 14:23:02.546  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"writer":{
+2021-07-27 14:23:02.546  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"name":"mysqlwriter",
+2021-07-27 14:23:02.546  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				"parameter":{
+2021-07-27 14:23:02.546  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"column":[
+2021-07-27 14:23:02.546  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"id",
+2021-07-27 14:23:02.546  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"name",
+2021-07-27 14:23:02.546  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"age",
+2021-07-27 14:23:02.546  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"height",
+2021-07-27 14:23:02.546  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						"updateTime"
+2021-07-27 14:23:02.546  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:23:02.546  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"connection":[
+2021-07-27 14:23:02.546  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						{
+2021-07-27 14:23:02.546  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"jdbcUrl":"jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8",
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							"table":[
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 								"test2"
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 							]
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 						}
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					],
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"password":"******",
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"session":[],
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"username":"root",
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 					"writeMode":"update"
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 				}
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			}
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		}
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	],
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	"setting":{
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		"errorLimit":{
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"percentage":0.02,
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"record":0
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		},
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		"speed":{
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 			"channel":8
+2021-07-27 14:23:02.547  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 		}
+2021-07-27 14:23:02.548  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 	}
+2021-07-27 14:23:02.548  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : }
+2021-07-27 14:23:02.548  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 
+2021-07-27 14:23:02.557  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:02.557 [main] WARN  Engine - prioriy set to 0, because NumberFormatException, the value is: null
+2021-07-27 14:23:02.558  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:02.558 [main] INFO  PerfTrace - PerfTrace traceId=job_-1, isEnable=false, priority=0
+2021-07-27 14:23:02.558  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:02.558 [main] INFO  JobContainer - DataX jobContainer starts job.
+2021-07-27 14:23:02.559  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:02.559 [main] INFO  JobContainer - Set jobId = 0
+2021-07-27 14:23:02.791  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:02.791 [job-0] INFO  OriginalConfPretreatmentUtil - Available jdbcUrl:jdbc:mysql://127.0.0.1:3306/test?yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true.
+2021-07-27 14:23:02.802  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:02.802 [job-0] INFO  OriginalConfPretreatmentUtil - table:[test] has columns:[id,name,age,height,updateTime,name1].
+2021-07-27 14:23:02.980  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:02.979 [job-0] INFO  OriginalConfPretreatmentUtil - table:[test2] all columns:[
+2021-07-27 14:23:02.980  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : id,name,age,height,updateTime,name132
+2021-07-27 14:23:02.980  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : ].
+2021-07-27 14:23:02.986  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:02.985 [job-0] INFO  OriginalConfPretreatmentUtil - Write data [
+2021-07-27 14:23:02.986  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : INSERT INTO %s (id,name,age,height,updateTime) VALUES(?,?,?,?,?) ON DUPLICATE KEY UPDATE id=VALUES(id),name=VALUES(name),age=VALUES(age),height=VALUES(height),updateTime=VALUES(updateTime)
+2021-07-27 14:23:02.986  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : ], which jdbcUrl like:[jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8&yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true]
+2021-07-27 14:23:02.986  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:02.986 [job-0] INFO  JobContainer - jobContainer starts to do prepare ...
+2021-07-27 14:23:02.986  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:02.986 [job-0] INFO  JobContainer - DataX Reader.Job [mysqlreader] do prepare work .
+2021-07-27 14:23:02.987  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:02.987 [job-0] INFO  JobContainer - DataX Writer.Job [mysqlwriter] do prepare work .
+2021-07-27 14:23:02.987  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:02.987 [job-0] INFO  JobContainer - jobContainer starts to do split ...
+2021-07-27 14:23:02.988  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:02.987 [job-0] INFO  JobContainer - Job set Channel-Number to 8 channels.
+2021-07-27 14:23:02.991  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:02.991 [job-0] INFO  JobContainer - DataX Reader.Job [mysqlreader] splits to [1] tasks.
+2021-07-27 14:23:02.992  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:02.992 [job-0] INFO  JobContainer - DataX Writer.Job [mysqlwriter] splits to [1] tasks.
+2021-07-27 14:23:03.005  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:03.004 [job-0] INFO  JobContainer - jobContainer starts to do schedule ...
+2021-07-27 14:23:03.007  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:03.007 [job-0] INFO  JobContainer - Scheduler starts [1] taskGroups.
+2021-07-27 14:23:03.010  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:03.010 [job-0] INFO  JobContainer - Running by standalone Mode.
+2021-07-27 14:23:03.017  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:03.017 [taskGroup-0] INFO  TaskGroupContainer - taskGroupId=[0] start [1] channels for [1] tasks.
+2021-07-27 14:23:03.020  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:03.020 [taskGroup-0] INFO  Channel - Channel set byte_speed_limit to -1, No bps activated.
+2021-07-27 14:23:03.020  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:03.020 [taskGroup-0] INFO  Channel - Channel set record_speed_limit to -1, No tps activated.
+2021-07-27 14:23:03.028  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:03.028 [taskGroup-0] INFO  TaskGroupContainer - taskGroup[0] taskId[0] attemptCount[1] is started
+2021-07-27 14:23:03.031  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:03.031 [0-0-0-reader] INFO  CommonRdbmsReader$Task - Begin to read record by Sql: [select id,name,age,height,updateTime from test where (updateTime>'2021-03-24 11:31:08.0')
+2021-07-27 14:23:03.032  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : ] jdbcUrl:[jdbc:mysql://127.0.0.1:3306/test?yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true].
+2021-07-27 14:23:03.300  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:03.299 [0-0-0-reader] INFO  CommonRdbmsReader$Task - Finished read record by Sql: [select id,name,age,height,updateTime from test where (updateTime>'2021-03-24 11:31:08.0')
+2021-07-27 14:23:03.300  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : ] jdbcUrl:[jdbc:mysql://127.0.0.1:3306/test?yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true].
+2021-07-27 14:23:03.578  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:03.578 [taskGroup-0] INFO  TaskGroupContainer - taskGroup[0] taskId[0] is successed, used[551]ms
+2021-07-27 14:23:03.579  INFO 34324 --- [pool-1-thread-1] com.jw.springbootdatax.JobLog            : 2021-07-27 14:23:03.578 [taskGroup-0] INFO  TaskGroupContainer - taskGroup[0] completed it's tasks.
+2021-07-27 14:23:10.324  INFO 34324 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-07-27 14:23:10.324  INFO 34324 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-07-27 14:23:10.324  INFO 34324 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2021-07-27 14:23:10.325  INFO 34324 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-07-27 14:23:10.325  INFO 34324 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2021-07-27 14:23:10.325  INFO 34324 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2021-07-27 14:23:10.326  INFO 34324 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-07-27 14:23:10.326  INFO 34324 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-07-27 14:26:25.379  INFO 37308 --- [main] c.j.s.SpringBootDataxApplicationTests    : Starting SpringBootDataxApplicationTests on LAPTOP-UN0BMNLC with PID 37308 (started by jiangw in D:\java\personal\review\spring-boot-datax)
+2021-07-27 14:26:25.381  INFO 37308 --- [main] c.j.s.SpringBootDataxApplicationTests    : No active profile set, falling back to default profiles: default
+2021-07-27 14:26:26.934  INFO 37308 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-27 14:26:27.263  INFO 37308 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-07-27 14:26:27.535  INFO 37308 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-07-27 14:26:27.643  INFO 37308 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2021-07-27 14:26:27.662  INFO 37308 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-07-27 14:26:27.663  INFO 37308 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.1 created.
+2021-07-27 14:26:27.664  INFO 37308 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2021-07-27 14:26:27.667  INFO 37308 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.1) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-07-27 14:26:27.667  INFO 37308 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2021-07-27 14:26:27.667  INFO 37308 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.1
+2021-07-27 14:26:27.668  INFO 37308 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@54af3cb9
+2021-07-27 14:26:27.759  INFO 37308 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-07-27 14:26:27.759  INFO 37308 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2021-07-27 14:26:27.769  INFO 37308 --- [main] c.j.s.SpringBootDataxApplicationTests    : Started SpringBootDataxApplicationTests in 3.161 seconds (JVM running for 4.675)
+2021-07-27 18:05:42.869  INFO 41724 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-07-27 18:05:42.878  INFO 41724 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-07-27 18:05:42.878  INFO 41724 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2021-07-27 18:05:42.878  INFO 41724 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2021-07-27 18:05:42.880  INFO 41724 --- [SpringContextShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2021-07-27 18:05:42.883  INFO 41724 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2021-07-27 18:05:42.893  INFO 41724 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-07-27 18:05:42.897  INFO 41724 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

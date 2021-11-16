@@ -1,0 +1,7 @@
+spring:
+  data:
+    elasticsearch:
+      # 9200端口是TCP端口，9300是TCP端口
+      cluster-nodes: 127.0.0.1:9300
+      # es必须有cluster-name
+      cluster-name: my-application

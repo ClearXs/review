@@ -1,0 +1,51 @@
+management:
+  endpoint:
+    # health端点设置
+    health:
+      # 是否开启
+      enabled: true
+      # 是哦福显示详细信息
+      show-details: always
+    # info端点配置
+    info:
+      enabled: true
+    # metrics端点配置 MetricsProperties配置类
+    metrics:
+      # 是否开启，默认开启
+      enabled: true
+
+  health:
+    # DiskSpaceHealthIndicator配置项，超过阈值则健康为不可用
+    diskspace:
+      enabled: true
+      # 磁盘路径
+      path: .
+      # 阈值
+      threshold: 1000000
+
+  info:
+    # EnvironmentInfoContributor的配置项
+    env:
+      enabled: true
+
+  metrics:
+    # 指定前缀指标是否开启
+    enable:
+      xxx: false
+    # 通用 tag
+    tags:
+      application: actuator-demo
+
+
+  endpoints:
+    # Actuator HTTP 配置项，对应 WebEndpointProperties 配置类
+    web:
+      base-path: /actuator
+      exposure:
+        # 需要开放的端口，默认只是health info两个端点
+        include: '*'
+        # 在include基础上，排除的端点
+        # exclude:
+info:
+  app:
+    java: @java.version@

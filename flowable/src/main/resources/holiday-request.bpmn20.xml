@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:flowable="http://flowable.org/bpmn" targetNamespace="http://www.flowable.org/processdef" exporter="Camunda Modeler" exporterVersion="4.11.1">
+  <process id="Leave" name="LeaveProcess" isExecutable="true">
+    <exclusiveGateway id="managerJudgeTask">
+      <incoming>Flow_0r2ho1x</incoming>
+      <outgoing>rejectFlow</outgoing>
+    </exclusiveGateway>
+    <endEvent id="endLeave">
+      <incoming>Flow_07gmvb7</incoming>
+    </endEvent>
+    <startEvent id="startLeave" />
+    <sequenceFlow id="flowStart" sourceRef="startLeave" targetRef="Activity_0na31we" />
+    <endEvent id="endLeave2">
+      <incoming>Flow_0u4pc5j</incoming>
+    </endEvent>
+    <sequenceFlow id="flowEnd" sourceRef="managerJudgeTask" targetRef="Activity_0vs4qmp">
+      <conditionExpression xsi:type="tFormalExpression">${approved}</conditionExpression>
+    </sequenceFlow>
+    <sequenceFlow id="Flow_0r2ho1x" sourceRef="Activity_0na31we" targetRef="managerJudgeTask" />
+    <userTask id="Activity_0na31we" name="manager approve" camunda:candidateGroups="manager">
+      <incoming>flowStart</incoming>
+      <outgoing>Flow_0r2ho1x</outgoing>
+    </userTask>
+    <sequenceFlow id="Flow_0u4pc5j" sourceRef="Activity_1e9tohy" targetRef="endLeave2" />
+    <sequenceFlow id="Flow_07gmvb7" sourceRef="Activity_0vs4qmp" targetRef="endLeave" />
+    <sequenceFlow id="rejectFlow" sourceRef="managerJudgeTask" targetRef="Activity_1e9tohy">
+      <conditionExpression xsi:type="tFormalExpression">${!approved}</conditionExpression>
+    </sequenceFlow>
+    <serviceTask id="Activity_0vs4qmp" name="success message" flowable:class="com.jw.flowable.ApproveMessageDelegate">
+      <incoming>flowEnd</incoming>
+      <outgoing>Flow_07gmvb7</outgoing>
+    </serviceTask>
+    <serviceTask id="Activity_1e9tohy" name="reject message" flowable:class="com.jw.flowable.RejectMessageDelegate">
+      <extensionElements>
+        <camunda:executionListener class="com.jw.flowable.RejectMessageDelegate" event="start">
+          <camunda:field name="test">
+            <camunda:string>test</camunda:string>
+          </camunda:field>
+        </camunda:executionListener>
+      </extensionElements>
+      <incoming>rejectFlow</incoming>
+      <outgoing>Flow_0u4pc5j</outgoing>
+    </serviceTask>
+  </process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_process">
+    <bpmndi:BPMNPlane id="BPMNPlane_process" bpmnElement="Leave">
+      <bpmndi:BPMNEdge id="Flow_07gmvb7_di" bpmnElement="Flow_07gmvb7">
+        <omgdi:waypoint x="740" y="303" />
+        <omgdi:waypoint x="806" y="303" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0u4pc5j_di" bpmnElement="Flow_0u4pc5j">
+        <omgdi:waypoint x="571" y="160" />
+        <omgdi:waypoint x="571" y="114" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0r2ho1x_di" bpmnElement="Flow_0r2ho1x">
+        <omgdi:waypoint x="490" y="303" />
+        <omgdi:waypoint x="553" y="303" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_rejectFlow" bpmnElement="rejectFlow">
+        <omgdi:waypoint x="572" y="282" />
+        <omgdi:waypoint x="572" y="240" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="561" y="23.999999999999986" width="21" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_flowEnd" bpmnElement="flowEnd">
+        <omgdi:waypoint x="591" y="303" />
+        <omgdi:waypoint x="640" y="303" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="689" y="138" width="22" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_flowStart" bpmnElement="flowStart">
+        <omgdi:waypoint x="183" y="302" />
+        <omgdi:waypoint x="390" y="302" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="BPMNShape_managerJudgeTask" bpmnElement="managerJudgeTask" isMarkerVisible="true">
+        <omgdc:Bounds x="552" y="282" width="40" height="40" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_endLeave" bpmnElement="endLeave">
+        <omgdc:Bounds x="806" y="289" width="28" height="28" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="809" y="177" width="22" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_startLeave" bpmnElement="startLeave">
+        <omgdc:Bounds x="153" y="287" width="30" height="30" />
+        <bpmndi:BPMNLabel>
+          <omgdc:Bounds x="157" y="317" width="22" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_endLeave2" bpmnElement="endLeave2">
+        <omgdc:Bounds x="558" y="86" width="28" height="28" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_19watqu_di" bpmnElement="Activity_0na31we">
+        <omgdc:Bounds x="390" y="262" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1utqm3r_di" bpmnElement="Activity_0vs4qmp">
+        <omgdc:Bounds x="640" y="263" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1v9to24_di" bpmnElement="Activity_1e9tohy">
+        <omgdc:Bounds x="522" y="160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</definitions>

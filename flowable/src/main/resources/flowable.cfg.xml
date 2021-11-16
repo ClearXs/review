@@ -1,0 +1,42 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="processEngineConfiguration" class="org.flowable.engine.impl.cfg.StandaloneProcessEngineConfiguration">
+        <!-- 配置数据源 -->
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/flowable?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8&amp;zeroDateTimeBehavior=convertToNull&amp;useSSL=true&amp;serverTimezone=GMT%2B8" />
+        <property name="jdbcDriver" value="com.mysql.cj.jdbc.Driver" />
+        <property name="jdbcUsername" value="root" />
+        <property name="jdbcPassword" value="123456" />
+        <property name="databaseSchemaUpdate" value="true" />
+
+        <property name="eventListeners">
+            <list>
+                <bean class="com.jw.flowable.config.IEventListener"/>
+            </list>
+        </property>
+
+        <property name="configurators">
+            <list>
+                <ref bean="formEngineConfigurator"></ref>
+            </list>
+        </property>
+    </bean>
+
+    <!-- -->
+    <bean id="formEngineConfigurator" class="org.flowable.form.engine.configurator.FormEngineConfigurator">
+        <property name="formEngineConfiguration" ref="formEngineConfiguration" />
+    </bean>
+
+    <!-- 配置表单配置 -->
+    <bean id="formEngineConfiguration" class="org.flowable.form.engine.impl.cfg.StandaloneFormEngineConfiguration">
+
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/flowable?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8&amp;zeroDateTimeBehavior=convertToNull&amp;useSSL=true&amp;serverTimezone=GMT%2B8" />
+        <property name="jdbcDriver" value="com.mysql.cj.jdbc.Driver" />
+        <property name="jdbcUsername" value="root" />
+        <property name="jdbcPassword" value="123456" />
+
+        <property name="databaseSchemaUpdate" value="true" />
+
+    </bean>
+</beans>

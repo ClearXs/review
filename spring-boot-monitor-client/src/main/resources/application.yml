@@ -1,0 +1,18 @@
+management:
+  endpoints:
+    # Actuator HTTP 配置项，对应 WebEndpointProperties 配置类
+    web:
+      exposure:
+        # 需要开放的端点，默认值只打开health和info两个端点。通过设置*，可以开放所有端点
+        include: '*'
+
+spring:
+  application:
+    name: monitor-client
+  boot:
+    admin:
+      client:
+        url: http://127.0.0.1:8888
+
+server:
+  port: 8889

@@ -1,0 +1,19 @@
+datax:
+  enable: true
+  datax-path: D:\tools\datax\datax\bin
+  job-file: D:\tools\datax\datax\bin\job\sqlserver\sqlserver-mysql-read-write.json
+  job-corn: 0/20 * * * * ?
+  check-sql: select * from ${table}
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&serverTimezone=Hongkong
+
+logging:
+  level:
+    com.jw.springbootdatax: info
+  file:
+    path: ./data/datax/log
