@@ -2,17 +2,16 @@ package com.jw.opentracing;
 
 import io.opentracing.Span;
 import io.opentracing.SpanContext;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-
 import java.util.List;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class ScrewSpanTest {
 
     private ScrewTracer screwTracer;
 
-    @Before
+    @BeforeEach
     public void init() {
         screwTracer = new ScrewTracer();
     }
@@ -32,13 +31,13 @@ public class ScrewSpanTest {
 
         ScrewSpanContext parentContext = parent.context();
         ScrewSpanContext childContext = child.context();
-        Assert.assertEquals(parentContext.getTraceId(), childContext.getTraceId());
+        Assertions.assertEquals(parentContext.getTraceId(), childContext.getTraceId());
     }
 
     @Test
     public void withTags() {
         ScrewSpan span = screwTracer.buildSpan("tags").withTag("test1", "test1").start();
-        Assert.assertEquals(span.getTag("test1"), "test1");
+        Assertions.assertEquals(span.getTag("test1"), "test1");
     }
 
     @Test
@@ -80,14 +79,14 @@ public class ScrewSpanTest {
         // 测试parent1 -> parent2 - child1
         ScrewSpanContext context = parent1.context();
         List<ScrewReference> references = parent2.getReferences();
-        Assert.assertEquals(context, references.get(0).getSpanContext());
+        Assertions.assertEquals(context, references.get(0).getSpanContext());
         references = child1.getReferences();
-        Assert.assertEquals(context, references.get(0).getSpanContext());
+        Assertions.assertEquals(context, references.get(0).getSpanContext());
 
         // 测试parent2 -> child2
         context = parent2.context();
         references = child2.getReferences();
-        Assert.assertEquals(context, references.get(0).getSpanContext());
+        Assertions.assertEquals(context, references.get(0).getSpanContext());
     }
 
     @Test

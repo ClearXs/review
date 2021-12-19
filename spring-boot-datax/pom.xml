@@ -15,7 +15,7 @@
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
-        <mysql-connector.version>5.1.48</mysql-connector.version>
+        <mysql-connector.version>8.0.25</mysql-connector.version>
         <ojdbc6.version>11.2.0.4</ojdbc6.version>
         <sqljdbc4.version>4.0</sqljdbc4.version>
     </properties>
@@ -43,7 +43,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.16</version>
+            <version>1.18.22</version>
         </dependency>
 
         <dependency>
@@ -69,13 +69,13 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid-spring-boot-starter</artifactId>
-            <version>1.1.22</version>
+            <version>1.2.8</version>
         </dependency>
 
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
-            <version>5.4.1</version>
+            <version>5.7.16</version>
         </dependency>
 
         <dependency>

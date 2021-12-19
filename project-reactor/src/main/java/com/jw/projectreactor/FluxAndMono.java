@@ -2,6 +2,7 @@ package com.jw.projectreactor;
 
 import reactor.core.publisher.BaseSubscriber;
 import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
 
 public class FluxAndMono {
 
@@ -23,12 +24,8 @@ public class FluxAndMono {
 
         // 对正常元素、错误响应，并且序列完成正常后进行回调
         Flux.range(0, 3)
-                .map(i -> {
-                        if (i == 3) {
-                            throw new NullPointerException();
-                        }
-                        return i;
-                    })
+                .map(i -> i + 1)
+                .filter(i -> i != 3)
                 .subscribe(System.out::println,
                         error -> error.printStackTrace(),
                         () -> System.out.println("done"));
@@ -62,6 +59,6 @@ public class FluxAndMono {
             // request表示我这只能消费一个，不要发多了
             request(1);
         }
-
     }
+
 }

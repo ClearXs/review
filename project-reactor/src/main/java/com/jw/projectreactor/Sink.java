@@ -1,10 +1,9 @@
 package com.jw.projectreactor;
 
 import cn.hutool.core.collection.CollectionUtil;
+import org.reactivestreams.Subscription;
 import org.springframework.util.Assert;
-import reactor.core.publisher.BaseSubscriber;
-import reactor.core.publisher.Flux;
-import reactor.core.publisher.FluxSink;
+import reactor.core.publisher.*;
 
 import java.util.*;
 import java.util.concurrent.ExecutorService;
@@ -133,6 +132,66 @@ public class Sink {
                 processor.getEvent().processComplete();
             }
         });
+    }
+
+    public static void buffer() {
+        EmitterProcessor<Integer> processor = EmitterProcessor.create(false);
+        FluxSink<Integer> sink = processor.sink(FluxSink.OverflowStrategy.BUFFER);
+
+        processor.subscribe(new BaseSubscriber<Integer>() {
+            @Override
+            protected Subscription upstream() {
+                return super.upstream();
+            }
+
+            @Override
+            public boolean isDisposed() {
+                return super.isDisposed();
+            }
+
+            @Override
+            public void dispose() {
+                super.dispose();
+            }
+
+            @Override
+            protected void hookOnSubscribe(Subscription subscription) {
+                super.hookOnSubscribe(subscription);
+            }
+
+            @Override
+            protected void hookOnNext(Integer value) {
+                super.hookOnNext(value);
+            }
+
+            @Override
+            protected void hookOnComplete() {
+                super.hookOnComplete();
+            }
+
+            @Override
+            protected void hookOnError(Throwable throwable) {
+                super.hookOnError(throwable);
+            }
+
+            @Override
+            protected void hookOnCancel() {
+                super.hookOnCancel();
+            }
+
+            @Override
+            protected void hookFinally(SignalType type) {
+                super.hookFinally(type);
+            }
+
+            @Override
+            public String toString() {
+                return super.toString();
+            }
+        });
+
+        sink.next(1);
+
     }
 
     static class custom extends Observable {

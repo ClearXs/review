@@ -1,16 +1,16 @@
 package com.jw.stream;
 
-import org.junit.Before;
-import org.junit.Test;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class CollectorTest {
 
     List<Student> students = new ArrayList<>();
 
-    @Before
+    @BeforeEach
     public void init() {
         for (int i = 0; i < 10; i++) {
             Student student = new Student();

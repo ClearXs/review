@@ -1,6 +1,7 @@
 package com.jw.basics.netty;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 
 public class JsonTest {
 

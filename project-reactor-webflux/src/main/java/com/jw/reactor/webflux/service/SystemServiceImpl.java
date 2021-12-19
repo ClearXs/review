@@ -53,27 +53,11 @@ public class SystemServiceImpl implements SystemService {
         // 1.更新数据库数据
         // 2.更新缓存数据
         // 2.1 获取所有的缓存数据
-        // 2.2 关键键匹配更新
+        // 2.2 关键值匹配更新
         // 2.3 删除缓存
         // 2.4 插入新的缓存
-
         // 2.5 此时用户是否能够
-        return Mono.defer(() -> {
-            systemVoMono.map(systemVo -> {
-                String id = systemVo.getId();
-                Flux<SystemVo> list = list().map(o -> {
-                    if (o.getId().equals(id)) {
-                        return systemVo;
-                    } else {
-                        return o;
-                    }
-                });
-                redisTemplate.delete("test")
-                        .then(
-                                list.collectList().m
-                        );
-            });
-        });
+        return Mono.defer(() -> Mono.just(Boolean.TRUE));
     }
 
     @Override

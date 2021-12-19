@@ -1,12 +1,12 @@
 package com.jw.basics.collection;
 
 import com.jw.basics.collection.model.User;
-import org.junit.Test;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
+import org.junit.jupiter.api.Test;
 
 public class TestSet {
 

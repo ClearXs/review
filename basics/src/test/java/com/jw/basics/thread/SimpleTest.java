@@ -2,11 +2,11 @@ package com.jw.basics.thread;
 
 import com.jw.basics.SimpleEnum;
 import com.jw.basics.thread.handle.SimpleExceptionHandler;
-import org.junit.Test;
 
 import java.math.BigDecimal;
 import java.util.concurrent.*;
 import java.util.stream.IntStream;
+import org.junit.jupiter.api.Test;
 
 public class SimpleTest {
 

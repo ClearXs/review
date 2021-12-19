@@ -8,9 +8,6 @@ import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.core.env.Environment;
 import org.springframework.core.env.MutablePropertySources;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
-
 public class LifecycleDemo implements BeanNameAware, BeanClassLoaderAware,
         BeanFactoryAware, ApplicationContextAware, InitializingBean, DisposableBean {
 
@@ -33,7 +30,6 @@ public class LifecycleDemo implements BeanNameAware, BeanClassLoaderAware,
         System.out.println("perform init");
     }
 
-    @PostConstruct
     public void postConstruct() {
         System.out.println("perform postConstruct");
     }
@@ -74,7 +70,6 @@ public class LifecycleDemo implements BeanNameAware, BeanClassLoaderAware,
         System.out.println("perform afterPropertiesSet");
     }
 
-    @PreDestroy
     public void preDestroy() {
         System.out.println("preform preDestroy");
     }

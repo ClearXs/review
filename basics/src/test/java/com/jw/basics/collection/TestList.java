@@ -1,10 +1,9 @@
 package com.jw.basics.collection;
 
-import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import org.junit.jupiter.api.Test;
 
 public class TestList {
 

@@ -2,9 +2,10 @@ package com.jw.basics.nio.future;
 
 import com.google.common.util.concurrent.*;
 import lombok.extern.slf4j.Slf4j;
-import org.checkerframework.checker.nullness.qual.Nullable;
 
 import java.util.concurrent.*;
+
+import javax.annotation.Nullable;
 
 /**
  * 使用guava实现异步回调

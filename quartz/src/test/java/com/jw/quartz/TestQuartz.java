@@ -1,6 +1,6 @@
 package com.jw.quartz;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.quartz.SchedulerException;
 
 import java.util.HashMap;

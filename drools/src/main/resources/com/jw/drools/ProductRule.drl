@@ -1,0 +1,17 @@
+package com.jw.drools
+
+import com.jw.drools.entity.Product
+
+rule Bag
+    when
+        product: Product(type == "bag")
+    then
+        product.setDiscount(5);
+    end
+
+rule Pencil
+    when
+        product: Product(type == "pencil")
+    then
+        product.setDiscount(6);
+    end

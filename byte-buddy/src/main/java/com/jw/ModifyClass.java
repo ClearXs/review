@@ -17,7 +17,7 @@ public class ModifyClass {
                 .saveIn(new File("D://"));
 
         // 读取外部文件、jar、网络重新生成新的Class文件
-        ClassFileLocator locator = ClassFileLocator.ForJarFile.of(new File("D:/java-agent-1.0-SNAPSHOT.jar"));
+        ClassFileLocator locator = ClassFileLocator.ForJarFile.of(new File("D:/java-agent-1.0.jar"));
         TypePool typePool = TypePool.Default.of(locator);
         new ByteBuddy()
                 .redefine(typePool.describe("com.jw.Out").resolve(), locator)

@@ -1,10 +1,9 @@
 package com.jw.basics.collection;
 
-import org.junit.Test;
-
 import java.lang.annotation.Annotation;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import org.junit.jupiter.api.Test;
 
 public class TestMap {
 
